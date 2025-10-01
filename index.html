@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Xo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="logo">Facebook Xo</h1>
+    <input type="text" placeholder="Search Facebook Xo..." class="search-bar">
+  </nav>
+
+  <div class="container">
+    <!-- Sidebar Left -->
+    <aside class="sidebar">
+      <ul>
+        <li>🏠 Home</li>
+        <li>👥 Friends</li>
+        <li>🛍️ Marketplace</li>
+        <li>📂 Groups</li>
+      </ul>
+    </aside>
+
+    <!-- Feed -->
+    <main class="feed">
+      <!-- First Post -->
+      <div class="post">
+        <div class="post-header">
+          <img src="https://via.placeholder.com/40" alt="Profile" class="profile-pic">
+          <span class="username">Toonna</span>
+        </div>
+        <p>Welcome to Facebook Xo! 🚀</p>
+        <div class="post-actions">
+          <button onclick="likePost(this)">👍 Like <span>0</span></button>
+        </div>
+        <div class="comments">
+          <input type="text" placeholder="Write a comment..." onkeypress="addComment(event, this)">
+          <ul></ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- Sidebar Right -->
+    <aside class="sidebar right">
+      <h3>Contacts</h3>
+      <ul>
+        <li>😊 Jane</li>
+        <li>😎 Mike</li>
+        <li>🤩 Sarah</li>
+      </ul>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
