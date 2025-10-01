@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #18191a;
+  color: #e4e6eb;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #242526;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1877f2;
+}
+
+.search-bar {
+  padding: 6px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  background: #242526;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.feed {
+  width: 60%;
+  padding: 20px;
+}
+
+.post {
+  background: #242526;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comments input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.comments ul {
+  list-style: none;
+  padding: 0;
+  }
